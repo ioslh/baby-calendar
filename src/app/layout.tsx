@@ -30,6 +30,9 @@ export default function RootLayout({
       >
         <WechatBanner />
         {children}
+        <div className="py-6 text-center text-xs font-mono">
+          <a href="https://github.com/ioslh/baby-calendar" target="_blank" rel="noopener noreferrer">https://github.com/ioslh/baby-calendar</a>
+        </div>
       </body>
     </html>
   );
